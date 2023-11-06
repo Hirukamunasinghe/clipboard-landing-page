@@ -240,8 +240,9 @@ i{
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
         row-gap: 80px;
-        padding-top: -100px;
+        margin-top: 0px;
         margin: auto;
+        padding-top: -150px;
     }
 
     .features p{
