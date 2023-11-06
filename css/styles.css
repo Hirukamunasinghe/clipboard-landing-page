@@ -229,14 +229,20 @@ i{
     }
 
     .monitor{
-        width: 400%;
-        margin-left: 20px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .features-div{
+        display: grid;
+        row-gap: 50px;
     }
 
     .features{
-        margin-top: 450px;
-        row-gap: 40px;
+        margin: auto;
     }
+
+
 
     .devices{
         width: 100%;
