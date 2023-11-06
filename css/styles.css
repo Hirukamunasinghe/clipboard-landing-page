@@ -288,4 +288,8 @@ i{
     .icons-div{
         padding-right: 0px;
     }
+
+    .buttons-div{
+        gap: 10px
+    }
 }
