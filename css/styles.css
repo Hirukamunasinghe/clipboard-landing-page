@@ -232,7 +232,6 @@ i{
 
     .features-div{
         display: grid;
-        grid-template-rows: 1fr 1fr;
         text-align: center;
     }
 
