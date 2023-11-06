@@ -233,7 +233,7 @@ i{
     .features-div{
         display: grid;
         grid-template-rows: 1fr 1fr;
-        row-gap: 40px;
+        row-gap: 15px;
         text-align: center;
     }
 
@@ -290,6 +290,6 @@ i{
     }
 
     .buttons-div{
-        gap: 10px
+        gap: 5px
     }
 }
