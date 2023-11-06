@@ -219,6 +219,8 @@ i{
     font-size: 1.3rem;
 }
 
+
+/* mobile responsive section */
 @media all and (max-width:1200px){
     html,body{
         overflow-x: hidden;
@@ -228,21 +230,32 @@ i{
         position: relative;
     }
 
+    .features-div{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 40px;
+        text-align: center;
+    }
+
+    .features{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 80px;
+        margin: auto;
+    }
+
+    .features p{
+        text-align: center;
+    }
+
     .monitor{
         width: 100%;
         margin: auto;
     }
 
-    .features-div{
-        display: grid;
-        row-gap: 50px;
+    .clipboard-div{
+        margin-top: 150px;
     }
-
-    .features{
-        margin: auto;
-    }
-
-
 
     .devices{
         width: 100%;
