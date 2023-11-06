@@ -240,7 +240,7 @@ i{
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
         row-gap: 80px;
-        padding-top: -20px;
+        padding-top: -100px;
         margin: auto;
     }
 
@@ -289,7 +289,4 @@ i{
         padding-right: 0px;
     }
 
-    .buttons-div{
-        gap: 5px
-    }
 }
