@@ -121,12 +121,15 @@ h2{
     padding-top: 30px;
 }
 
-.devices-image-div{
+.image-devices-div{
     display: flex;
     justify-content: center;
     margin-top: 70px;
 }
 
+.devices{
+    margin: auto;
+}
 
 .supercharge-para{
     padding-top: 18px;
@@ -158,6 +161,7 @@ h2{
     justify-content: center;
     gap: 110px;
 }
+
 
 .clipboard-two-div{
     margin-top: 100px;
