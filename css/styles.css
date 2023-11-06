@@ -5,6 +5,7 @@
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
+/* header */
 .header{
     background-image: url('/clipboard-landing-page/images/bg-header-desktop.png');
     width: 100%;
@@ -23,6 +24,7 @@
     margin-top: 65px;
 }
 
+/* main text content */
 .text-content{
     margin-top: 320px;
 }
