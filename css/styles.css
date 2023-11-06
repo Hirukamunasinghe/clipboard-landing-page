@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.header{
+    background-image: url('/clipboard-landing-page/images/bg-header-desktop.png');
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+}
+
+.svg{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.text-content{
+    margin-top: 320px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.main-heading{
+    color: hsl(210, 10%, 33%);
+    font-size: 1.2rem;
+}
+
+p{
+    color:hsl(201, 11%, 66%);
+    font-weight: bold;
+    text-align: center;
+}
+
+.para{
+    padding-top: 10px;
+}
+
+
+.buttons-div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+button{
+    border: 1px solid green;
+    height: 40px;
+    width: 180px;
+    border-radius: 30px;
+    background-color: hsl(171, 66%, 44%);
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.mac-button{
+    border: 1px solid blue;
+    height: 40px;
+    width: 180px;
+    border-radius: 30px;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.snippets-div{
+    margin-top: 100px;
+}
+
+h2{
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+}
+
+
+.snippets-para{
+    padding-top: 15px;
+}
+
+.features-div{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    row-gap: 85px;
+    margin-right: 280px;
+    margin-top: 20px;
+}
+
+
+.f-para{
+    padding-top: 15px;
+    text-align: left;
+}
+
+.clipboard-heading{
+    margin-top: 100px;
+}
+
+.clipboard-para{
+    padding-top: 30px;
+}
+
+.devices-image-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+
+.supercharge-para{
+    padding-top: 18px;
+}
+
+.super-features{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.sub-feature{
+    text-align: center;
+}
+
+.super-h2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* .icon{
+    margin-left: 140px
+} */
+
+.images-div{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+}
+
+.clipboard-two-div{
+    margin-top: 100px;
+}
+
+.clip-para{
+    padding-top: 20px;
+}
+
+.buttons-div-new{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 60px;
+    padding-bottom: 180px;
+}
+
+/* footer */
+footer{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+.c-icon{
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.footer-text-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 35px;
+    margin: auto;
+    padding-left: -40px;
+}
+
+.contact-para{
+    margin-right: -30px;
+}
+
+.press-para{
+    margin-left: -10px;
+}
+
+.icons-div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+    padding-right: 60px;
+}
+
+i{
+    color: gray;
+}
+
+.link{
+    font-size: 1.3rem;
+}
+
+@media all and (max-width:1200px){
+    html,body{
+        overflow-x: hidden;
+    }
+
+    body{
+        position: relative;
+    }
+
+    .monitor{
+        width: 400%;
+        margin-left: 20px;
+    }
+
+    .features{
+        margin-top: 450px;
+        row-gap: 40px;
+    }
+
+    .devices{
+        width: 100%;
+    }
+
+    .supercharge-div .super-features{
+        display: grid;
+    }
+
+    .images-div{
+        display: grid;
+    }
+
+    footer{
+        display: grid;
+        height: 600px;
+        text-align: center;
+    }
+
+    .footer-text-div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .c-icon{
+        padding-left: 15px;
+    }
+
+    .icons-div{
+        padding-right: 0px;
+    }
+}
