@@ -97,13 +97,14 @@ h2{
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    margin-left: 90px;
 }
 
 .features{
     display: flex;
     flex-direction: column;
     row-gap: 85px;
-    margin-right: 280px;
+    margin-right: 250px;
     margin-top: 20px;
 }
 
@@ -239,6 +240,7 @@ i{
     .features-div{
         display: grid;
         text-align: center;
+        margin-left: 0px;
     }
 
     .features{
@@ -276,6 +278,7 @@ i{
     }
 
     footer{
+        position: absolute;
         display: grid;
         height: 600px;
         text-align: center;
